@@ -1,10 +1,10 @@
-+++
+﻿+++
 author = "若水"
 title = "4月总结"
 date = "2024-05-05"
 description = "Summary 2024-04"
 categories = [
-    "Summary2024"
+    "Summary"
 ]
 tags = [
     "总结",
