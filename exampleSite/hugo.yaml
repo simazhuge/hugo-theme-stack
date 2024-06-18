@@ -12,20 +12,20 @@ DefaultContentLanguage: en
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
-
+# 这里配置语种按钮
 languages:
     en:
-        languageName: English
-        title: Example Site
+        languageName: 中文
+        title: 若冰的博客
         weight: 1
         params:
-            description: Example description
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-        params:
-            description: 演示说明
+            description:  每天做一些毫无意义的事，上善若水，我若冰。
+    # zh-cn:
+    #     languageName: 中文
+    #     title: 演示站点
+    #     weight: 2
+    #     params:
+    #         description: 演示说明
 
 services:
     # Change it to your Disqus shortname before using
