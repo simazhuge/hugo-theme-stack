@@ -1,11 +1,16 @@
----
-title: "2024年4月 - 2024年5月"
-description: "每个月记录一些总结"
-slug: "总结"
-style:
-    background: "#2a9d8f"
-    color: "#fff"
----
++++
+author = "若水"
+title = "4月总结"
+date = "2024-05-05"
+description = "Summary 2024-04"
+categories = [
+    "Summary2024"
+]
+tags = [
+    "总结",
+]
+image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg"
++++
 
 ### [1、Qt 裁剪总结](http://fndxq:52521/doc/%E6%80%BB%E7%BB%93%E6%80%A7/%E8%A3%81%E5%89%AA%E7%BB%93%E8%AE%BA.md)
 ### [2、QTextLayout性能 压力测试](http://fndxq:52521/doc/%E6%80%BB%E7%BB%93%E6%80%A7/QTextLayout%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE.xls)
