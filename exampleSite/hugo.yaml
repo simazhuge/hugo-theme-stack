@@ -19,7 +19,7 @@ languages:
         title: 若冰的博客
         weight: 1
         params:
-            description:  每天做一些毫无意义的事，上善若水，我若冰。
+            description:  每天做一些毫无意义的事。
     # zh-cn:
     #     languageName: 中文
     #     title: 演示站点
@@ -56,7 +56,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 每天做一些毫无意义的事。
         avatar:
             enabled: true
             local: true
