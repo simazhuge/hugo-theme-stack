@@ -4,7 +4,7 @@ title = "移植"
 date = "2024-06-18"
 description = "arm移植相关"
 categories = [
-    "Work"
+    "work"
 ]
 tags = [
     "移植",
