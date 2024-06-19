@@ -9,7 +9,6 @@ categories = [
 tags = [
     "移植",
 ]
-<!-- image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg" -->
 +++
 
 ### [ssd222d移植]()
