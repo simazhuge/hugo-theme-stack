@@ -38,12 +38,12 @@ image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg"
 - git submodule  add  <sub_git_url>  相对路径 ： 用来添加子模块
 
 # 二、案例：github fork 别人代码，然后基于某个tag 建分支
-## 1、添加源：git remote add upstream https://github.com/qicosmos/ormpp.git
-## 2、clone fork后的仓库 
-## 3、git fetch upstream  同步源
-## 4、查看tag 
-## 5、git branch <new-branch-name> <tag-name> 创建分支
-## 6、git push origin <new-branch-name>
+  1. 添加源：git remote add upstream https://github.com/qicosmos/ormpp.git
+  2. clone fork后的仓库 
+  3. git fetch upstream  同步源
+  4. 查看tag 
+  5. git branch <new-branch-name> <tag-name> 创建分支
+  6. git push origin <new-branch-name>
 
 
 # 三、案例：Git 关联 GitHub
