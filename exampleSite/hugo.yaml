@@ -16,7 +16,7 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: 中文
-        title: 若冰的博客
+        title: 若水的博客
         weight: 1
         params:
             description:  每天做一些毫无意义的事。
