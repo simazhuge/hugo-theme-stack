@@ -12,8 +12,8 @@ tags = [
 +++
 #矩阵介绍
 
-![alt 属性文本](20210502150936243.jpg)
+![alt 属性文本](/post/qt/20210502150936243.jpg)
 
 ![Photo by Florian Klauer on Unsplash](20210502150936243.jpg) 
 
-![Photo by Florian Klauer on Unsplash](florian-klauer-nptLmg6jqDo-unsplash.jpg) 
+![Photo by Florian Klauer on Unsplash](/post/qt/florian-klauer-nptLmg6jqDo-unsplash.jpg) 
