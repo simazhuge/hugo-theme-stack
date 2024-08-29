@@ -9,7 +9,6 @@ categories = [
 tags = [
     "工具",
 ]
-image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg"
 +++
 
 # 一、Git常用命令
