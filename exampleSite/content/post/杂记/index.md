@@ -19,3 +19,24 @@ tags = [
 - is_trivially_copyable
 - is_standard_layout
 - is_pod
+
+
+# 关于bool 和  char 之间 memcpy
+#include <iostream>
+#include <cstring>
+gcc 在 -O2 的情况下会优化， 导致行为错误，i值是21. 主要是因为 b1值变为21，然后 b1==b2这边又用了异或运算
+int main(int argc, char *argv[])
+{
+
+    char c1 = 20,c2 = 1;
+    bool b1 = false;
+    bool b2 = false;
+
+    memcpy(&b1, &c1,1);
+    memcpy(&b2, &c2,1);
+
+
+    int i = ((b1 == b2) ? 0 : 1);
+    std::cout << i;
+    return 0;
+}

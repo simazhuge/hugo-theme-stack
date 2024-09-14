@@ -63,4 +63,15 @@ tags = [
 ## 验证是否配置成功
     ssh -T git@github.com
 
+## 要克隆带有子模块的 Git 仓库，可以使用以下命令：
+~~~
+bash
+git clone --recurse-submodules <repository-url>
+这个命令会克隆主仓库及其所有子模块。如果你已经克隆了主仓库但未更新子模块，可以运行：
+
+bash
+git submodule update --init --recursive
+这会初始化并更新所有子模块。
+~~~
+
 
