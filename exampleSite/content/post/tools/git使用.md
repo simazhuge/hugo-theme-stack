@@ -83,4 +83,10 @@ git submodule update --init --recursive
 这会初始化并更新所有子模块。
 ~~~
 
+## git 使用 Clash 代理
+~~~
+git config --global http.proxy 'http://127.0.0.1:7890'
+git config --global https.proxy 'http://127.0.0.1:7890'
+~~~
+
 
