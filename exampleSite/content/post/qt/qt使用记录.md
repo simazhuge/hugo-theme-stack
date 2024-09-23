@@ -22,3 +22,7 @@ QString QCoreApplication::applicationDirPath()
 
 无论在什么情况下，返回的都是exe所在的绝对路径。
 ~~~ 
+# 2、 Qt dll库信号槽连接失败：QObject::connect: signal not found in Lib
+. [参考](https://blog.csdn.net/zzwdkxx/article/details/105477367)
+. 主要原因: windows 平台下未使用导出宏
+. 备注：如果使用原始模式 connect(objptr, SIGNAL(), anotherobjptr, SLOT()); 也可以connect成功
