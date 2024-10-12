@@ -26,3 +26,9 @@ QString QCoreApplication::applicationDirPath()
 . [参考](https://blog.csdn.net/zzwdkxx/article/details/105477367)
 . 主要原因: windows 平台下未使用导出宏
 . 备注：如果使用原始模式 connect(objptr, SIGNAL(), anotherobjptr, SLOT()); 也可以connect成功
+
+# 3、QAction  的 Priority使用
+~~~
+This property can be set to indicate how the action should be prioritized in the user interface.
+For instance, when toolbars have the Qt::ToolButtonTextBesideIcon mode set, then actions with LowPriority will not show the text labels.
+~~~
