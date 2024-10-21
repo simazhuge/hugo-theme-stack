@@ -18,3 +18,9 @@ ifconfig eth0 hw ether 00:aa:aa:aa:aa:01
 ifconfig eth0 192.168.210.210
 ifconfig eth0 up
 ~~~ 
+
+### 2、移除和添加驱动模块
+~~~
+先卸载Linuxfb驱动：rmmod fbdev
+再加载modprobe fbdedv
+~~~

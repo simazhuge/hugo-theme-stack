@@ -32,3 +32,12 @@ QString QCoreApplication::applicationDirPath()
 This property can be set to indicate how the action should be prioritized in the user interface.
 For instance, when toolbars have the Qt::ToolButtonTextBesideIcon mode set, then actions with LowPriority will not show the text labels.
 ~~~
+
+# 4、 QFont 字体的使用
+### 1、配置windows下使用freetype
+添加qt.config 文件，修改如下
+~~~
+[Platforms]
+WindowsArguments = fontengine=freetype
+~~~
+### 2、
